@@ -1,11 +1,12 @@
-#ask the user to enter name
-name = input("whats your name  :").strip().title()
-print(f"hallo,{name}")
-marital_status = input("are you married :,bool = yes")
-if bool = yes
-    print(f"enter your spouse p_no  :")
-elif print("enter your own p_no :")
-    print("enter your own p_no  :")
-#if input("are you married, + bool = true")
-#print("enter your spouse p_no :")
+name = input("What's your name: ").strip().title()
+print(f"Hello, {name}!")
+
+marital_status = input("Are you married? (yes/no): ")
+
+if marital_status.lower() == "yes":
+    spouse_p_no = input("Enter your spouse's phone number: ")
+    print(f"Spouse's phone number: {spouse_p_no}")
+else:
+    own_p_no = input("Enter your own phone number: ")
+    print(f"Your phone number: {own_p_no}")
 
